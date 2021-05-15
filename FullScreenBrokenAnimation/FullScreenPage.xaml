@@ -8,7 +8,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mc:Ignorable="d">
 
-    <Grid>
-        <Button Click="Button_Click" Content="Go back" />
-    </Grid>
+    <StackPanel VerticalAlignment="Center">
+        <Button Click="Button_Click" Content="Go back without suppress transition" />
+        <Button Click="Button_Click_1" Content="Go back with suppress transition" />
+    </StackPanel>
 </Page>
